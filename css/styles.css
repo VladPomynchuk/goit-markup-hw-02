@@ -1,0 +1,19 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent: #2196f3;
+  --logo-color: #000000;
+  --hero-bg-color: #2f303a;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+}
+body {
+  background-color: #ffffff;
+}
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет акцента #2196F3 */
+/* цвет лого #000000 */
+/* белый #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона герой #2F303A */
