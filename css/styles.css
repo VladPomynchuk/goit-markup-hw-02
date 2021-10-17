@@ -9,8 +9,10 @@
   --nav-footer-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /* основной цвет текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -20,3 +22,119 @@ body {
 /* вторичный цвет фона #F5F4FA */
 /* цвет фона герой #2F303A */
 /* цвет навигации в футере rgba(255, 255, 255, 0.6) */
+.logo {
+  color: var(--accent);
+}
+.header-logo {
+  color: var(--logo-color);
+}
+/* .header-nav-link {
+  color: var(--primary-text-color);
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent);
+} */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent);
+}
+
+/* .header-contacts-link {
+  color: var(--secondary-text-color);
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent);
+} */
+.header-contacts .link {
+  color: var(--secondary-text-color);
+}
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent);
+}
+.hero {
+  background-color: var(--hero-bg-color);
+}
+.hero-title {
+  color: var(--primary-bg-color);
+  text-align: center;
+}
+.hero-button {
+  background-color: var(--accent);
+  color: var(--primary-bg-color);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--logo-color);
+}
+.peculiarities-text {
+  color: var(--secondary-text-color);
+}
+.hidden-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.team {
+  background-color: var(--secondary-bg-color);
+}
+.team-text {
+  color: var(--secondary-text-color);
+}
+/* .team-item {
+  background-color: var(--primary-bg-color);
+} */
+.footer {
+  background-color: var(--hero-bg-color);
+}
+.footer-logo {
+  color: var(--primary-bg-color);
+}
+.maps-link {
+  color: var(--primary-bg-color);
+  text-decoration: none;
+}
+.maps-link:hover,
+.maps-link:focus {
+  color: var(--accent);
+}
+/* .footer-contacts-link {
+  color: var(--nav-footer-color);
+}
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent);
+} */
+.footer-list .link {
+  color: var(--nav-footer-color);
+}
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* raleway 700 */
+/* roboto 500 */
+/* roboto 900 */
+/* roboto 700 */
+/* roboto 400 */
