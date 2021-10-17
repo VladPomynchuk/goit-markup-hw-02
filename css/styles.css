@@ -241,6 +241,8 @@ letter-spacing: 0.03em;
   border-radius: 4px;
 }
 .works-title {
+  color: var(--primary-text-color);
+  
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
