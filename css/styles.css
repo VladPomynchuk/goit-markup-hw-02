@@ -25,7 +25,7 @@ body {
 .logo {
   color: var(--accent);
 
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -143,10 +143,6 @@ body {
   background-color: var(--secondary-bg-color);
 }
 .team-item {
-width: 270px;
-height: 368px;
-left: 1115px;
-top: 1635px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;s
 }
@@ -220,7 +216,7 @@ border-radius: 0px 0px 4px 4px;s
 /* roboto 400 */
 .filter-button {
   background-color: var(--secondary-bg-color)
-  color: var(var(--primary-text-color))
+  color: var(--primary-text-color);
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -233,7 +229,7 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.filter-button:active,
+.filter-button:hover,
 .filter-button:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent);
@@ -256,11 +252,6 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 }
 .works-item {
-width: 370px;
-height: 404px;
-left: 215px;
-top: 262px;
-
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
