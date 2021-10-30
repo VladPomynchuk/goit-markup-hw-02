@@ -143,8 +143,9 @@ body {
   background-color: var(--secondary-bg-color);
 }
 .team-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;s
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team .title {
   font-weight: 700;
@@ -215,7 +216,7 @@ border-radius: 0px 0px 4px 4px;s
 /* roboto 700 */
 /* roboto 400 */
 .filter-button {
-  background-color: var(--secondary-bg-color)
+  background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -223,11 +224,11 @@ border-radius: 0px 0px 4px 4px;s
   border: none;
 
   font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -238,21 +239,21 @@ letter-spacing: 0.03em;
 }
 .works-title {
   color: var(--primary-text-color);
-  
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .works-text {
   color: var(--secondary-text-color);
 
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 .works-item {
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
